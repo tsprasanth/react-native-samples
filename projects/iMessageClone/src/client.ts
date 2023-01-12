@@ -5,8 +5,8 @@ import {
   STREAM_USER_ID,
 } from 'react-native-dotenv';
 
-export const userToken = STREAM_USER_TOKEN;
-export const user = {id: STREAM_USER_ID};
+export const userToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidXNlcjEifQ.U2pNTC6DDE7hbCB_q4mc1XetplNg7pg9EAKYBbA8MZY";
+export const user = {id: "user1"};
 
 type LocalAttachmentType = Record<string, unknown>;
 type LocalChannelType = Record<string, unknown>;
@@ -27,4 +27,4 @@ export type StreamChatGenerics = {
 };
 
 export const chatClient =
-  StreamChat.getInstance<StreamChatGenerics>(STREAM_API_KEY);
+StreamChat.getInstance<StreamChatGenerics>("bfpcytvr8xfz");

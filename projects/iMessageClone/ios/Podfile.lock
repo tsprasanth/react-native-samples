@@ -302,6 +302,8 @@ PODS:
   - React-jsinspector (0.70.6)
   - React-logger (0.70.6):
     - glog
+  - react-native-aes-gcm-crypto (0.2.2):
+    - React-Core
   - react-native-cameraroll (5.0.0):
     - React-Core
   - react-native-document-picker (8.1.2):
@@ -484,6 +486,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-aes-gcm-crypto (from `../node_modules/react-native-aes-gcm-crypto`)
   - "react-native-cameraroll (from `../node_modules/@react-native-camera-roll/camera-roll`)"
   - react-native-document-picker (from `../node_modules/react-native-document-picker`)
   - react-native-image-resizer (from `../node_modules/react-native-image-resizer`)
@@ -573,6 +576,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-aes-gcm-crypto:
+    :path: "../node_modules/react-native-aes-gcm-crypto"
   react-native-cameraroll:
     :path: "../node_modules/@react-native-camera-roll/camera-roll"
   react-native-document-picker:
@@ -661,6 +666,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: b4a65947391c658450151275aa406f2b8263178f
   React-jsinspector: 60769e5a0a6d4b32294a2456077f59d0266f9a8b
   React-logger: 1623c216abaa88974afce404dc8f479406bbc3a0
+  react-native-aes-gcm-crypto: f1bade1824458569b0e0f27ef4bc647ffe48ebbc
   react-native-cameraroll: 4989cc00dda5e96a716befe0acfc76c31548d49f
   react-native-document-picker: f5ec1a712ca2a975c233117f044817bb8393cad4
   react-native-image-resizer: d9fb629a867335bdc13230ac2a58702bb8c8828f
@@ -691,6 +697,6 @@ SPEC CHECKSUMS:
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: cab576d3cf942a440378784b304169868fe5c02c
+PODFILE CHECKSUM: 5b42d3fdc563206fe24518e2f2452383427d8af7
 
 COCOAPODS: 1.11.3
